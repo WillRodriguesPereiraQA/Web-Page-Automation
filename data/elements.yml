@@ -1,0 +1,16 @@
+####################Buttons####################
+
+login_button: .btn.btn-primary
+my_tasks: .btn.btn-lg.btn-success
+add_newtask: .input-group-addon.glyphicon.glyphicon-plus
+subtask_add: '#add-subtask'
+manage_subtasks: .btn.btn-xs.btn-primary.ng-binding
+
+###################Fields#####################
+new_task_field: '#new_task'
+subtask_description: '#new_sub_task'
+Date: '#dueDate'
+username: '#user_email'
+password: '#user_password'
+
+###################Messages#####################
