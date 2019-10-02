@@ -2,7 +2,8 @@
 Feature: create new task
 
 Background:
-  Given I launch "Avenue Code Page"
+  #Given I launch "Avenue Code Page"
+  Given I launch "web_site"
   When I select campo "username" I insert valor "wilhelmcallas@gmail.com"
   And I select campo "password" I insert valor "will1234"
   And I click on the botao "login_button"
@@ -31,3 +32,4 @@ When I fill the campo "subtask_description" with the valor "I should be able to 
 And I fill the campo "Date" with the valor "22/07/2018"
 And I click on the botao "subtask_add"
 Then I am able to see error message
+

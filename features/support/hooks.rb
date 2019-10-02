@@ -9,5 +9,6 @@ Before do
 @FillPage = FillPage.new
 @EnterPage = EnterPage.new
 @ClickPage = ClickPage.new
+@SitePage = SitePage.new
 
 end
